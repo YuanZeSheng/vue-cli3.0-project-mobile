@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <!-- 模版 -->
-    首页
+  <div class="homeContainer">
+    <header>
+      header
+    </header>
   </div>
 </template>
 
@@ -28,5 +29,11 @@ export default {
 </script>
 
 <style scoped lang="less" >
-
+ header {
+   height: .88rem;
+   background: #409EFF;
+   font-size: .36rem;
+   line-height: .88rem;
+   text-align: center;
+ }
 </style>

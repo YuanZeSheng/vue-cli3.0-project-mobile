@@ -3,6 +3,7 @@ import App from "./App.vue";
 import Vuex from "vuex";
 import router from "./router";
 import store from "./store/store";
+import '../public/rem.js'
 
 // 公共样式表
 import './assets/css/commen.less'
