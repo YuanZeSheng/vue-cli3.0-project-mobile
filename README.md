@@ -1,4 +1,4 @@
-# pandajiajia-mobile
+# vue-cli3.0 mobile 
 
 ## Project setup
 ```
