@@ -25,5 +25,14 @@ yarn run test
 yarn run lint
 ```
 
+
+### update development api
+
+env.development 
+
+### update production api
+
+env.production 
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
