@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // axios 配置
-// axios.defaults.baseURL = 'http://172.26.1.63:8080'
+axios.defaults.baseURL = process.env.VUE_APP_URL
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8';
 axios.defaults.withCredentials = true; //让ajax携带cookie
 
@@ -43,11 +43,12 @@ export function Get(url, param) {
 export default {
     // 示例
     handleGetApiTest(param) {
-      return Get('/crm_student/students/', param)
+      return Get('/api/test', param)
     },
+    
    // 登陆
    handleSendLogin(param) {
-    return Post('/user/login', param)
+    return Post('/api/test', param)
   }
 }
 
